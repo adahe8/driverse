@@ -1,5 +1,4 @@
-res://pedestrian-spawner.gd
-res://2DRoad.tscn
-res://pedestrian.tscn
+res://main.tscn
+res://user_car.tscn
 res://pedestrian_spawner.tscn
-res://pedestrian.gd
+res://pedestrian.tscn

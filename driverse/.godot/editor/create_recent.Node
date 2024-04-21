@@ -1,7 +1,9 @@
+AnimationPlayer
+Timer
+Node
 CollisionShape2D
 Area2D
 CharacterBody2D
-Node
 TileMap
 TextureRect
 AnimatedSprite2D
@@ -11,4 +13,3 @@ Camera3D
 Node3D
 MeshInstance3D
 CollisionShape3D
-StaticBody3D
