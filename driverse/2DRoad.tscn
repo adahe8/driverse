@@ -1,3 +1,8 @@
-[gd_scene format=3 uid="uid://bssx4du0be5or"]
+[gd_scene load_steps=2 format=3 uid="uid://bssx4du0be5or"]
+
+[ext_resource type="PackedScene" uid="uid://ca5yytkytg0rk" path="res://pedestrian.tscn" id="1_us76u"]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_us76u")]
+position = Vector2(1318, 133)

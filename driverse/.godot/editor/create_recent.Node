@@ -1,8 +1,11 @@
+AnimatedSprite2D
+CollisionShape2D
+CharacterBody2D
+Sprite2D
 CharacterBody3D
 Camera3D
 Node3D
 MeshInstance3D
 CollisionShape3D
 StaticBody3D
-CharacterBody2D
 MeshInstance2D
