@@ -1,2 +1,5 @@
-res://2DRoad.tscn
-res://pedestrian.tscn
+res://main.tscn
+res://player.gd
+res://player.tscn
+res://background.gd
+res://Sprite2D.gd
