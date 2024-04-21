@@ -1,9 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1713668435
+::res://::1713669215
 2DRoad.tscn::PackedScene::3688427137211183669::1713667675::0::1::::<><>::uid://ca5yytkytg0rk::::res://pedestrian.tscn
+car animation.png::CompressedTexture2D::1558085324252790480::1713669215::1713669699::1::::<><>::
+car idle.png::CompressedTexture2D::9034356270427160863::1713669215::1713669699::1::::<><>::
+doubleyellow.png::CompressedTexture2D::5046521913912065554::1713669215::1713669699::1::::<><>::
 icon.svg::CompressedTexture2D::8762114710465765927::1713638286::1713638411::1::::<><>::
 Jump (32x32).png::CompressedTexture2D::7163253820314548230::1713666879::1713666879::1::::<><>::
-pedestrian.tscn::PackedScene::4836273781395910800::1713667550::0::1::::<><>::uid://cf5hgmu65ypmt::::res://Run (32x32).png
+pedestrian.tscn::PackedScene::4836273781395910800::1713668751::0::1::::<><>::res://pedestrian.gd<>uid://cf5hgmu65ypmt::::res://Run (32x32).png
+pedestrian.gd::GDScript::-1::1713668521::0::1::::<>CharacterBody2D<>::
+Road.png::CompressedTexture2D::2913963833588697921::1713669215::1713669699::1::::<><>::
 Run (32x32).png::CompressedTexture2D::5186153314536791271::1713666835::1713666835::1::::<><>::
 user_car.gd::GDScript::-1::1713664352::0::1::::<>CharacterBody2D<>::
 user_car.tscn::PackedScene::-1::1713664352::0::1::::<><>::
