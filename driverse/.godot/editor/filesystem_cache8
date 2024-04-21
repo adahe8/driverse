@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1713675148
+::res://::1713676359
 2DRoad.tscn::PackedScene::3688427137211183669::1713673484::0::1::::<><>::uid://dyi7708ly3dfk::::res://Road.png<>uid://bmrtir2tdcn72::::res://user_car.tscn
+border .png::CompressedTexture2D::7638656884963362946::1713676359::1713676359::1::::<><>::
 car animation.png::CompressedTexture2D::7255920416915532169::1713669807::1713675211::1::::<><>::
 car idle.png::CompressedTexture2D::2245264085416647524::1713669807::1713675211::1::::<><>::
 doubleyellow.png::CompressedTexture2D::4092539853454885377::1713669807::1713675211::1::::<><>::
