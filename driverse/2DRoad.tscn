@@ -1,8 +1,18 @@
-[gd_scene load_steps=2 format=3 uid="uid://bssx4du0be5or"]
+[gd_scene load_steps=3 format=3 uid="uid://bssx4du0be5or"]
 
-[ext_resource type="PackedScene" uid="uid://ca5yytkytg0rk" path="res://pedestrian.tscn" id="1_us76u"]
+[ext_resource type="Texture2D" uid="uid://dyi7708ly3dfk" path="res://Road.png" id="1_t8q1l"]
+[ext_resource type="PackedScene" uid="uid://bmrtir2tdcn72" path="res://user_car.tscn" id="2_vnni6"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node" type="Node"]
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("1_us76u")]
-position = Vector2(1318, 133)
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_t8q1l")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_vnni6")]
+position = Vector2(462, 209)
