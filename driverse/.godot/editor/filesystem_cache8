@@ -1,15 +1,15 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1713676359
-2DRoad.tscn::PackedScene::3688427137211183669::1713673484::0::1::::<><>::uid://dyi7708ly3dfk::::res://Road.png<>uid://bmrtir2tdcn72::::res://user_car.tscn
-border .png::CompressedTexture2D::7638656884963362946::1713676359::1713676359::1::::<><>::
-car animation.png::CompressedTexture2D::7255920416915532169::1713669807::1713675211::1::::<><>::
-car idle.png::CompressedTexture2D::2245264085416647524::1713669807::1713675211::1::::<><>::
-doubleyellow.png::CompressedTexture2D::4092539853454885377::1713669807::1713675211::1::::<><>::
-icon.svg::CompressedTexture2D::8762114710465765927::1713639816::1713675097::1::::<><>::
-Jump (32x32).png::CompressedTexture2D::7163253820314548230::1713670377::1713670377::1::::<><>::
-pedestrian.gd::GDScript::-1::1713670377::0::1::::<>CharacterBody2D<>::
-pedestrian.tscn::PackedScene::4836273781395910800::1713673484::0::1::::<><>::res://pedestrian.gd<>uid://cf5hgmu65ypmt::::res://Run (32x32).png
-Road.png::CompressedTexture2D::6966272903958329596::1713675112::1713675211::1::::<><>::
-Run (32x32).png::CompressedTexture2D::5186153314536791271::1713670377::1713670377::1::::<><>::
-user_car.gd::GDScript::-1::1713670375::0::1::::<>CharacterBody2D<>::
-user_car.tscn::PackedScene::3264950073856356335::1713670375::0::1::::<><>::res://user_car.gd<>uid://rnqlyi5hb3jj::::res://car.png<>uid://qedctaxcsbbb::::res://car animation.png
+::res://::1713680202
+2DRoad.tscn::PackedScene::-1::1713670645::0::1::::<><>::
+border .png::CompressedTexture2D::-1::1713678970::1713678970::1::::<><>::
+car animation.png::CompressedTexture2D::7162359751679263062::1713669280::1713678970::1::::<><>::
+car idle.png::CompressedTexture2D::1515233229182289493::1713669280::1713678970::1::::<><>::
+doubleyellow.png::CompressedTexture2D::7225295000442513682::1713669280::1713678970::1::::<><>::
+icon.svg::CompressedTexture2D::8762114710465765927::1713668198::1713668552::1::::<><>::
+Jump (32x32).png::CompressedTexture2D::-1::1713670645::1713670645::1::::<><>::
+pedestrian.gd::GDScript::-1::1713670645::0::1::::<>CharacterBody2D<>::
+pedestrian.tscn::PackedScene::-1::1713670645::0::1::::<><>::
+Road.png::CompressedTexture2D::6966272903958329596::1713680202::1713680251::1::::<><>::
+Run (32x32).png::CompressedTexture2D::-1::1713670645::1713670645::1::::<><>::
+user_car.gd::GDScript::-1::1713668198::0::1::::<>CharacterBody2D<>::
+user_car.tscn::PackedScene::3264950073856356335::1713668198::0::1::::<><>::res://user_car.gd<>uid://rnqlyi5hb3jj::::res://car.png<>uid://qedctaxcsbbb::::res://car animation.png
