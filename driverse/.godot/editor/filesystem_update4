@@ -3,3 +3,5 @@ res://player.gd
 res://player.tscn
 res://background.gd
 res://Sprite2D.gd
+res://user_car.tscn
+res://user_car.gd

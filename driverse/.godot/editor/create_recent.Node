@@ -1,9 +1,10 @@
+CollisionShape2D
+Area2D
+CharacterBody2D
+Node
 TileMap
 TextureRect
-Node
 AnimatedSprite2D
-CollisionShape2D
-CharacterBody2D
 Sprite2D
 CharacterBody3D
 Camera3D
@@ -11,4 +12,3 @@ Node3D
 MeshInstance3D
 CollisionShape3D
 StaticBody3D
-MeshInstance2D
