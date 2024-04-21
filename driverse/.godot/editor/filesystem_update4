@@ -1,5 +1,1 @@
-res://main_road.tscn
-res://car.tscn
-res://Player.gd
-res://left_pedestrian.tscn
-res://2DRoad.tscn
+res://pedestrian.tscn
