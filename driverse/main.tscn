@@ -1,8 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://dv1ur0352hb5q"]
+[gd_scene load_steps=8 format=3 uid="uid://dv1ur0352hb5q"]
 
 [ext_resource type="Script" path="res://background.gd" id="1_odf01"]
 [ext_resource type="Texture2D" uid="uid://c6irq5p32hqau" path="res://Road.png" id="1_w5ew2"]
 [ext_resource type="PackedScene" uid="uid://bmrtir2tdcn72" path="res://user_car.tscn" id="3_wpixm"]
+[ext_resource type="PackedScene" uid="uid://d36ygu4s43c24" path="res://pedestrian_spawner.tscn" id="4_c43ri"]
+[ext_resource type="PackedScene" path="res://pedestrian.tscn" id="5_h4mrl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dt164"]
 size = Vector2(236, 1432)
@@ -38,3 +40,8 @@ shape = SubResource("RectangleShape2D_dt164")
 [node name="RightSide" type="CollisionShape2D" parent="Roadsides" groups=["rightside"]]
 position = Vector2(1153.5, 722.75)
 shape = SubResource("RectangleShape2D_p6pih")
+
+[node name="PedestrianSpawner" parent="." instance=ExtResource("4_c43ri")]
+
+[node name="CharacterBody2D" parent="PedestrianSpawner" instance=ExtResource("5_h4mrl")]
+position = Vector2(829.192, 157.141)

@@ -1,7 +1,8 @@
+Timer
+Node
 CollisionShape2D
 Area2D
 CharacterBody2D
-Node
 TileMap
 TextureRect
 AnimatedSprite2D
