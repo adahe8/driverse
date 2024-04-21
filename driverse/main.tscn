@@ -1,17 +1,40 @@
-[gd_scene load_steps=3 format=3 uid="uid://dv1ur0352hb5q"]
+[gd_scene load_steps=6 format=3 uid="uid://dv1ur0352hb5q"]
 
 [ext_resource type="Script" path="res://background.gd" id="1_odf01"]
 [ext_resource type="Texture2D" uid="uid://c6irq5p32hqau" path="res://Road.png" id="1_w5ew2"]
+[ext_resource type="PackedScene" uid="uid://bmrtir2tdcn72" path="res://user_car.tscn" id="3_wpixm"]
 
-[node name="ParallaxBackground" type="ParallaxBackground"]
-scroll_offset = Vector2(452.993, 138.72)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dt164"]
+size = Vector2(236, 1432)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p6pih"]
+size = Vector2(251, 1436.5)
+
+[node name="Node" type="Node"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 script = ExtResource("1_odf01")
 
-[node name="Road" type="ParallaxLayer" parent="."]
+[node name="Road" type="ParallaxLayer" parent="ParallaxBackground"]
 motion_scale = Vector2(2, 2)
-motion_mirroring = Vector2(2.08165e-12, 412.5)
+motion_mirroring = Vector2(2.08165e-12, 720)
 
-[node name="Sprite2D" type="Sprite2D" parent="Road"]
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/Road"]
+texture_filter = 1
 scale = Vector2(2, 2)
 texture = ExtResource("1_w5ew2")
 centered = false
+
+[node name="user_car" parent="." instance=ExtResource("3_wpixm")]
+position = Vector2(848, 624)
+scale = Vector2(2, 2)
+
+[node name="Roadsides" type="CharacterBody2D" parent="."]
+
+[node name="LeftSide" type="CollisionShape2D" parent="Roadsides" groups=["leftside"]]
+position = Vector2(127, 721)
+shape = SubResource("RectangleShape2D_dt164")
+
+[node name="RightSide" type="CollisionShape2D" parent="Roadsides" groups=["rightside"]]
+position = Vector2(1153.5, 722.75)
+shape = SubResource("RectangleShape2D_p6pih")
