@@ -1,1 +1,5 @@
+res://pedestrian-spawner.gd
+res://2DRoad.tscn
 res://pedestrian.tscn
+res://pedestrian_spawner.tscn
+res://pedestrian.gd
